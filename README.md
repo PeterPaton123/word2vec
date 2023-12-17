@@ -24,3 +24,7 @@ The skipgram model has two implementations. A implementation using negative samp
 ## Testing
 
 The linear correlations in word embeddings can be tested on over 10,000 semantic and syntactic training examples from the original word2vec paper, in `src/semantic_syntactic_tests.py`.
+
+### Principle Component Analysis
+
+I also provide functionality to perform principle component analysis (PCA) on the embeddings, this helps determine if the embedding size is not overly large. After training we have a (vocab_size, embedding_size)  matrix of embeddings of each significant word in the vocabulary. By computing the covariance matrix and then analyzing the distribution of its eigenvalues, we can understand what proportion of the variance is captured by each principal component, from this we can determine whether the embedding size can be reduced without losing significant information/quality of embeddings.
