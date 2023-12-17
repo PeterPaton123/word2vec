@@ -23,6 +23,8 @@ The skipgram model has two implementations. A implementation using negative samp
 
 ## Testing
 
+### Semantic and syntactic linear relations
+
 The linear correlations in word embeddings can be tested on over 10,000 semantic and syntactic training examples from the original word2vec paper, in `src/semantic_syntactic_tests.py`.
 
 ### Principle Component Analysis
