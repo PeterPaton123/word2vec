@@ -1,6 +1,6 @@
 # Continuous Bag of Words and Skipgram word2vec models
 
-This repo contains implementations of CBOW and SkipGram word2vec models, inspired by the original word2vec paper by Mikolov Et al (https://arxiv.org/pdf/1301.3781.pdf), implemented in JAX/FLAX. I have also implemented negative sampling and hierarchical softmax as training optimisations.
+This repo contains implementations of CBOW and SkipGram word2vec models, inspired by the original word2vec paper by Mikolov Et al (https://arxiv.org/pdf/1301.3781.pdf), implemented in JAX/FLAX. I have also implemented negative sampling and hierarchical softmax as training optimisations, with semantic and syntactic test sets and principle component analysis to ensure an expressive but efficient embedding dimension.
 
 ## Requirements
 1. Install Python3.8+ 
